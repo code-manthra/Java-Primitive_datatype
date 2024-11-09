@@ -161,19 +161,19 @@ d) Holds a boolean value
 ---
 
 Answers
-b) String
-a) 0
-b) char
-b) double
-b) 8
-b) -32,768 to 32,767
-a) boolean
-d) 64 bits
-c) long
-b) -126 (Explanation: Casting 130 to byte causes overflow)
-c) double
-b) It will cause a compile-time error.
-d) false
-a) int x = 100L; (Explanation: Assigning a long to an int without casting)
-b) x = 5.99f;
-b) Holds a 2-byte Unicode character
+1- b) String
+2- a) 0
+3- b) char
+4- b) double
+5- b) 8
+6- b) -32,768 to 32,767
+7- a) boolean
+8- d) 64 bits
+9- c) long
+10- b) -126 (Explanation: Casting 130 to byte causes overflow)
+11- c) double
+12- b) It will cause a compile-time error.
+13- d) false
+14- a) int x = 100L; (Explanation: Assigning a long to an int without casting)
+15- b) x = 5.99f;
+16- b) Holds a 2-byte Unicode character
