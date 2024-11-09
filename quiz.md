@@ -10,9 +10,7 @@ Test your understanding of Java’s primitive data types! Read each question car
 - b) `String`
 - c) `boolean`
 - d) `float`
-
-**Your Answer:** 
-
+  
 ---
 
 ### Question 2
@@ -21,8 +19,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - b) 1
 - c) null
 - d) undefined
-
-**Your Answer:** 
 
 ---
 
@@ -33,8 +29,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - c) `boolean`
 - d) `int`
 
-**Your Answer:** 
-
 ---
 
 ### Question 4
@@ -43,8 +37,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - b) `double`
 - c) `boolean`
 - d) `char`
-
-**Your Answer:** 
 
 ---
 
@@ -55,8 +47,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - c) 16
 - d) 32
 
-**Your Answer:** 
-
 ---
 
 ### Question 6
@@ -65,8 +55,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - b) -32,768 to 32,767
 - c) -2^31 to 2^31 - 1
 - d) -2^63 to 2^63 - 1
-
-**Your Answer:** 
 
 ---
 
@@ -77,8 +65,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - c) `byte`
 - d) `float`
 
-**Your Answer:** 
-
 ---
 
 ### Question 8
@@ -87,8 +73,6 @@ Test your understanding of Java’s primitive data types! Read each question car
 - b) 16 bits
 - c) 32 bits
 - d) 64 bits
-
-**Your Answer:** 
 
 ---
 
@@ -99,13 +83,97 @@ Test your understanding of Java’s primitive data types! Read each question car
 - c) `long`
 - d) `double`
 
-**Your Answer:** 
-
 ---
 
 ### Question 10
 **What would be the result of the following code snippet?**
+
 ```java
 int a = 130;
 byte b = (byte) a;
 System.out.println(b);
+```
+- a) 130
+- b) -126
+- c) 0
+- d) Compile-time error
+
+---
+
+Question 11
+Which primitive data type would be most appropriate for representing a fractional value with high precision, like 3.14159265359?
+
+- a) float
+- b) int
+- c) double
+- d) char
+
+---
+
+Question 12
+What will happen if you assign a double value to a float variable without casting in Java?
+
+a) It will be implicitly converted to float.
+b) It will cause a compile-time error.
+c) It will round the value and assign it.
+d) It will store it as a double.
+
+---
+
+Question 13
+What is the default value of a boolean variable in Java?
+
+a) 0
+b) 1
+c) true
+d) false
+
+---
+
+Question 14
+Which of the following code snippets will throw a compile-time error?
+
+a) int x = 100L;
+b) float y = 3.14f;
+c) char c = 'A';
+d) boolean b = false;
+
+---
+
+Question 15
+If a variable x is of type float, which of the following is a valid assignment?
+
+a) x = 5.99;
+b) x = 5.99f;
+c) x = "5.99";
+d) x = true;
+
+---
+
+Question 16
+Which of the following best describes the char data type in Java?
+
+a) Holds a 4-byte Unicode character
+b) Holds a 2-byte Unicode character
+c) Holds a single ASCII character only
+d) Holds a boolean value
+
+---
+
+Answers
+b) String
+a) 0
+b) char
+b) double
+b) 8
+b) -32,768 to 32,767
+a) boolean
+d) 64 bits
+c) long
+b) -126 (Explanation: Casting 130 to byte causes overflow)
+c) double
+b) It will cause a compile-time error.
+d) false
+a) int x = 100L; (Explanation: Assigning a long to an int without casting)
+b) x = 5.99f;
+b) Holds a 2-byte Unicode character
